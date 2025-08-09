@@ -203,8 +203,6 @@ main input[type="email"],main input[type="text"],main textarea{
 }
 
 .name-date{
-    /* padding-left: 15px; */
-    /* padding:0px 20px ; */
     gap: 0px;
     
 }
@@ -215,4 +213,15 @@ main input[type="email"],main input[type="text"],main textarea{
     background-color: red;
     text-shadow:2px 2px #252432;
     box-shadow: 2px 2px #252432;
+}
+
+/* Extra work */
+
+.extra-work{
+    background-color: white;
+    border-radius: 15px;
+    text-align: center;  
+    margin: 150px ;
+    padding: 100px 100px;
+    
 }
