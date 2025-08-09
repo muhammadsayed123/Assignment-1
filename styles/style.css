@@ -54,14 +54,44 @@
 
 .description{
     font-size: 24px;
-    color: #252432;
+    color: #92929b;
 }
 
 .title-pic{
     display: flex;
     padding: 150px 120px;
-    gap: 500px;
+    gap: 400px;
 }
 .img-style{
     border-radius: 48px;
+}
+
+.user-info{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.user{
+  text-align: center;
+}
+
+.bg{
+    background-color: rgba(38, 175, 238, 0.1);
+    margin: 50px 300px;
+    border-radius: 25px;
+}
+.inner-div{
+    padding: 50px 80px;
+}
+
+.number{
+    font-size: 70px;  
+    color: rgb(8, 42, 116);
+}
+
+.message{
+    font-size: 0px;
+    font-size: 24px;
+    color: #92929b;
 }
