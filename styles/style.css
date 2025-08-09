@@ -75,6 +75,7 @@
     text-align: center;
     display: flex;
     justify-content: space-around;
+    gap: 0px;
 }
 
 .user{
@@ -93,11 +94,15 @@
 .number{
     font-size: 70px;  
     color: rgb(8, 42, 116);
+    margin-bottom: 5px; 
+    margin-top: 10px;
 }
 
 .message{
-    font-size: 24px;
+    font-size: 15px;
     color: #92929b;
+    margin-top: 0;
+    margin-bottom: 0; 
 }
 
 .touch-section{
@@ -133,3 +138,33 @@ main input[type="email"],main input[type="text"],main textarea{
 }
 
 /* Footer section */
+
+
+
+.footer-section{
+    margin: 100px 350px;
+    text-align: center;
+}
+
+.footer-logo{
+    font-size: 100px;
+    color: #4E47ff;
+    font-weight: 700;
+    font-family: instrument Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.footer-description{
+    font-size: 25px;
+    color: #8987A4;
+    margin: 0px 40px;
+    text-align: center;
+}
+.link a{
+    text-decoration: none;
+    color: #8987A4; 
+}
+.link{
+    display: flex;
+    gap: 50px; 
+    justify-content: center;
+}
